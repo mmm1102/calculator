@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url(background.jpg);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+}
+
+#container {
+  width: 400px;
+  margin: 100px auto;
+}
+
+#ispis {
+  font-size: 3rem;
+  height: 4rem;
+  width: 100%;
+  margin-bottom: 0.5rem;
+  background-color: white;
+  border: 3px solid dodgerblue;
+  text-align: right;
+}
+
+#poljeDugmica {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 5px;
+}
+
+button {
+  font-size: 2.5rem;
+  border-radius: 8px;
+  height: 4rem;
+}
+
+.brojke {
+  font-size: 2.5rem;
+  border-radius: 8px;
+  height: 4rem;
+}
+
+/* #jednako {
+  background-color: rgb(65, 164, 195);
+}
+
+#c {
+  background-color: rgb(65, 164, 195);
+}
+
+.brojke {
+  background-color: rgb(179, 200, 228);
+} */
